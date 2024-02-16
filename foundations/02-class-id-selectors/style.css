@@ -1,0 +1,18 @@
+.paragraph{
+    background-color: #FFC0CB;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+
+}
+
+#bold-blue{
+    color: #0000FF;
+    font-size: 36px;
+}
+.font-variant{
+    font-size: 24px;
+}
+
+#bold-green-background{
+    background-color: #90EE90;
+    font-weight: bold;
+}
