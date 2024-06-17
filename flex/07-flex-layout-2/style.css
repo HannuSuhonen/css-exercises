@@ -8,12 +8,14 @@ body {
 }
 
 .header {
-  height: 72px;
+  height: 60px;
   background: darkmagenta;
   color: white;
   display: flex;
   align-items: center;
   padding: 10px;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .footer {
@@ -48,8 +50,10 @@ body {
 }
 
 .card{
-  height: 250px;
-  min-width: 400px;
+  height: auto;
+  width: auto;
+  min-height: 200px;
+  min-width: 350px;
   flex: 1;
   padding: 20px;
 }
@@ -58,4 +62,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 10px; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+li{
+  padding: 10px;
+}
+
+li a{
+  text-decoration: none;
+  color: white;
 }
